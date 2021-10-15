@@ -1,29 +1,29 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 .title {
-  font-family: "Raleway";
+  font-family: "Inter";
   font-size: 5rem;
   font-weight: 700;
-  
+
   color: #451263;
   text-align: center;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
   font: poppins;
 }
 
-#main{
+#main {
   width: 100%;
   height: 60vh;
   position: relative;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,20 +32,20 @@ nav{
   left: 0;
   width: 100%;
   background-color: white;
-  box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.logo img{
+.logo img {
   height: 45px;
 }
 
-.menu{
+.menu {
   list-style: none;
   display: flex;
 }
 
-.menu li a{
+.menu li a {
   height: 40px;
   line-height: 43px;
   margin: 3px;
@@ -58,11 +58,11 @@ nav{
   color: rgb(62, 6, 95);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.hey{
+.hey {
   color: #ba7fd6;
   font-weight: 500;
   font-size: 0.9em;
@@ -70,17 +70,17 @@ a{
 }
 
 .image {
- width: 500px;
- height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
-.image img{
+.image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.content{
+.content {
   display: flex;
   width: 90%;
   justify-content: space-around;
@@ -88,23 +88,23 @@ a{
   position: absolute;
   left: 50%;
   right: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.main-text{
+.main-text {
   width: 500px;
 }
 
-.main-text h1{
+.main-text h1 {
   font-size: 3.5em;
   color: rgb(62, 6, 95);
   margin: 0px 0px 10px 0px;
   line-height: 60px;
 }
-.main-text p{
+.main-text p {
   color: rgb(62, 6, 95);
 }
-.btn{
+.btn {
   width: 190px;
   height: 44px;
   display: flex;
@@ -113,22 +113,22 @@ a{
   color: white;
   background-color: #ba7fd6;
   border-radius: 20px;
-  box-shadow:  5px 10px 30px rgba(62, 6, 95, 0.2);
+  box-shadow: 5px 10px 30px rgba(62, 6, 95, 0.2);
 }
 
-.resume-btn:hover{
-  background-color:  #ae5cd4;
-  transition: all ease 0.2s; 
-}
-
-.menu li a:hover{
+.resume-btn:hover {
   background-color: #ae5cd4;
-  color:rgb(62, 6, 95);
-  box-shadow:  5px 10px 30px rgba(62, 6, 95,0.2);
-  transition: all ease 0.2s; 
+  transition: all ease 0.2s;
 }
 
+.menu li a:hover {
+  background-color: #ae5cd4;
+  color: rgb(62, 6, 95);
+  box-shadow: 5px 10px 30px rgba(62, 6, 95, 0.2);
+  transition: all ease 0.2s;
+}
 
-html, body {
-	background-color: #FFFFFF;
+html,
+body {
+  background-color: #ffffff;
 }
