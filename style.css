@@ -10,7 +10,7 @@
 }
 */
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,20 +19,20 @@ nav{
   left: 0;
   width: 100%;
   background-color: white;
-  box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.logo img{
+.logo img {
   height: 45px;
 }
 
-.menu{
+.menu {
   list-style: none;
   display: flex;
 }
 
-.menu li a{
+.menu li a {
   height: 40px;
   line-height: 43px;
   margin: 3px;
@@ -45,11 +45,11 @@ nav{
   color: rgb(62, 6, 95);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.hey{
+.hey {
   color: #ba7fd6;
   font-weight: 500;
   font-size: 0.9em;
@@ -68,7 +68,7 @@ a{
   object-fit: contain;
 } */
 
-.content{
+.content {
   display: flex;
   width: 90%;
   justify-content: space-around;
@@ -76,23 +76,23 @@ a{
   position: absolute;
   left: 50%;
   right: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.main-text{
+.main-text {
   width: 500px;
 }
 
-.main-text h1{
+.main-text h1 {
   font-size: 3.5em;
   color: rgb(62, 6, 95);
   margin: 0px 0px 10px 0px;
   line-height: 60px;
 }
-.main-text p{
+.main-text p {
   color: rgb(62, 6, 95);
 }
-.btn{
+.btn {
   width: 190px;
   height: 44px;
   display: flex;
@@ -101,38 +101,38 @@ a{
   color: white;
   background-color: #ba7fd6;
   border-radius: 20px;
-  box-shadow:  5px 10px 30px rgba(62, 6, 95, 0.2);
+  box-shadow: 5px 10px 30px rgba(62, 6, 95, 0.2);
 }
 
-.resume-btn:hover{
-  background-color:  #ae5cd4;
-  transition: all ease 0.2s; 
-}
-
-.menu li a:hover{
+.resume-btn:hover {
   background-color: #ae5cd4;
-  color:rgb(62, 6, 95);
-  box-shadow:  5px 10px 30px rgba(62, 6, 95,0.2);
-  transition: all ease 0.2s; 
+  transition: all ease 0.2s;
 }
 
+.menu li a:hover {
+  background-color: #ae5cd4;
+  color: rgb(62, 6, 95);
+  box-shadow: 5px 10px 30px rgba(62, 6, 95, 0.2);
+  transition: all ease 0.2s;
+}
 
-html, body {
-	background-color: #FFFFFF;
+html,
+body {
+  background-color: #ffffff;
 }
 body {
   margin: 40px 0;
-  font-family: "Raleway";
+  font-family: "Inter";
   font-size: 14px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
-  font-family: "Raleway";
+  font-family: "Inter";
   font-size: 5rem;
   font-weight: 700;
-  
+
   color: #451263;
   text-align: center;
 }
@@ -141,7 +141,8 @@ p {
   line-height: 1.5em;
 }
 
-h1 + p, p + p {
+h1 + p,
+p + p {
   margin-top: 10px;
 }
 
@@ -164,7 +165,8 @@ h1 + p, p + p {
 .card-wrap:hover .card-info p {
   opacity: 1;
 }
-.card-wrap:hover .card-info, .card-wrap:hover .card-info p {
+.card-wrap:hover .card-info,
+.card-wrap:hover .card-info p {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .card-wrap:hover .card-info:after {
@@ -173,12 +175,16 @@ h1 + p, p + p {
   transform: translateY(0);
 }
 .card-wrap:hover .card-bg {
-  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
   opacity: 1;
 }
 .card-wrap:hover .card {
-  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
-  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px,
+    rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px;
 }
 
 .card {
@@ -189,7 +195,8 @@ h1 + p, p + p {
   background-color: rgb(65, 36, 85);
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
@@ -204,7 +211,8 @@ h1 + p, p + p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   pointer-events: none;
 }
 
@@ -233,7 +241,11 @@ h1 + p, p + p {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
   background-blend-mode: overlay;
   opacity: 0;
   transform: translateY(100%);
@@ -241,7 +253,7 @@ h1 + p, p + p {
 }
 
 .card-info h1 {
-  font-family: "Playfair Display";
+  font-family: "Inter";
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
